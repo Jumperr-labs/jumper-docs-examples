@@ -1,0 +1,25 @@
+{
+	"description": "Nrf52-DK",
+	"components": [
+		{
+			"name": "nrf52832",
+			"id": 0,
+			"type": "MCU",
+			"class": "MCU"
+		},
+		{
+			"name": "AD7798",
+			"id": 2,
+			"type": "Peripheral",
+			"file": "_build/AD7798.so",
+			"config": {
+				"pins": {
+					"cs": 29,
+					"sck": 3,
+					"si": 4,
+					"so": 28
+				}
+			}
+		}
+	]
+}
